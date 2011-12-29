@@ -1,3 +1,4 @@
 You can try running the spec like : rspec -fd spec. It's like well written prose :)
-The stock order uses state_machine gem which. I could have used Michah Martin's other state machine 
-but i really like this one :p
+The stock order uses state_machine gem.
+I assumed the stock order when is created by default is 'long'.
+Price data is encapsulated using a struct that contains also the symbol. The symbol is not used yet ...
