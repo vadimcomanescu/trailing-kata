@@ -26,7 +26,7 @@ class StockOrder
 	 super()
 	end
 	
-	#Here we can do a clock that ticks every second to send this to us.
+	# Here we can do a clock that ticks every second to send this to us.
 	def time_tick timestamp
 	  @now = timestamp
 	  super
